@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coleccion_manga>
+    <manga id="1">
+        <titulo>One Piece</titulo>
+        <autor>Eiichiro Oda</autor>
+        <genero>Aventura</genero>
+        <tomos_publicados>107</tomos_publicados>
+    </manga>
+    <manga id="2">
+        <titulo>Dragon Ball</titulo>
+        <autor>Akira Toriyama</autor>
+        <genero>Accion</genero>
+        <tomos_publicados>42</tomos_publicados>
+    </manga>
+</coleccion_manga>
