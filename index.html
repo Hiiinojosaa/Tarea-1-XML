@@ -2,34 +2,64 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Manga World - Felipe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo Manga</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>Proyecto Manga de Felipe</h1>
-        <p>Bienvenido al catálogo de las mejores colecciones japonesas.</p>
+    <header class="main-header">
+        <h1>CATALOGO MANGA</h1>
+        <p>Catálogo Digital de Colecciones Japonesas</p>
     </header>
 
-    <main>
-        <section>
-            <h2>Manga Destacado</h2>
-            <article>
-                <h3>One Piece</h3>
-                <img src="https://m.media-amazon.com/images/S/pv-target-images/18111b4f51e768b246b9f707d33b538a350f6f49fcebee5f59a2b6bb7eba38db._SX1080_FMjpg_.jpg" alt="Portada One Piece" width="400">
-                <p><strong>Sinopsis:</strong> Luffy parte al mar para convertirse en el Rey de los Piratas.</p>
-                <p>Géneros principales:</p>
-                <ul>
-                    <li>Aventura</li>
-                    <li>Acción</li>
-                    <li>Comedia</li>
-                </ul>
+    <main class="container">
+        <section class="manga-grid">
+            
+            <article class="manga-card">
+                <div class="manga-badge">1999</div>
+                <div class="img-container">
+                    <img src="https://static.wikia.nocookie.net/naruto/images/1/12/La_Promesa_de_Naruto.png/revision/latest/scale-to-width-down/732?cb=20251201131357&path-prefix=es" alt="Naruto Vol. 1">
+                </div>
+                <div class="manga-info">
+                    <h3>Naruto</h3>
+                    <p class="author">Por: Masashi Kishimoto</p>
+                    <p class="description">Un joven ninja que busca el reconocimiento de su aldea y el sueño de convertirse en Hokage.</p>
+                    <span class="tag">Shonen</span>
+                </div>
             </article>
+
+            <article class="manga-card">
+                <div class="manga-badge">1989</div>
+                <div class="img-container">
+                    <img src="https://img.asmedia.epimg.net/resizer/v2/EF3C24GVEFCETHAGNREH67BURQ.jpg?auth=e4d087a1f0b77f23fe244b0018fd7910826649177a2e11a203ac6821c5b5cc44&width=1200&height=1200&smart=true" alt="Berserk Portada">
+                </div>
+                <div class="manga-info">
+                    <h3>Berserk</h3>
+                    <p class="author">Por: Kentaro Miura</p>
+                    <p class="description">Guts, un guerrero solitario, lucha contra un destino cruel en un mundo de fantasía oscura.</p>
+                    <span class="tag">Seinen</span>
+                </div>
+            </article>
+
+            <article class="manga-card">
+                <div class="manga-badge">1997</div>
+                <div class="img-container">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/18111b4f51e768b246b9f707d33b538a350f6f49fcebee5f59a2b6bb7eba38db._SX1080_FMjpg_.jpg" alt="One Piece Portada">
+                </div>
+                <div class="manga-info">
+                    <h3>One Piece</h3>
+                    <p class="author">Por: Eiichiro Oda</p>
+                    <p class="description">Luffy parte al mar con su tripulación para encontrar el tesoro legendario y ser el Rey de los Piratas.</p>
+                    <span class="tag">Aventura</span>
+                </div>
+            </article>
+
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Proyecto DAW - Lenguajes de Marcas</p>
+    <footer class="main-footer">
+        <p>&copy; 2026 Tarea 1 XML - Lenguajes de Marcas | Alumno: Luis Ruiz Hinojosa</p>
     </footer>
 
 </body>

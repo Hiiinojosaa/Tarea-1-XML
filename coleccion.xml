@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coleccion_manga>
-    <manga id="1">
+<biblioteca>
+    <manga>
+        <titulo>Naruto</titulo>
+        <autor>Masashi Kishimoto</autor>
+        <anio>1999</anio>
+        <demografia>Shonen</demografia>
+    </manga>
+    <manga>
+        <titulo>Berserk</titulo>
+        <autor>Kentaro Miura</autor>
+        <anio>1989</anio>
+        <demografia>Seinen</demografia>
+    </manga>
+    <manga>
         <titulo>One Piece</titulo>
         <autor>Eiichiro Oda</autor>
-        <genero>Aventura</genero>
-        <tomos_publicados>107</tomos_publicados>
+        <anio>1997</anio>
+        <demografia>Shonen</demografia>
     </manga>
-    <manga id="2">
-        <titulo>Dragon Ball</titulo>
-        <autor>Akira Toriyama</autor>
-        <genero>Accion</genero>
-        <tomos_publicados>42</tomos_publicados>
-    </manga>
-</coleccion_manga>
+</biblioteca>

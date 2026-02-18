@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root xmlns:manga="http://www.biblioteca-manga.com/datos">
+<manga:biblioteca xmlns:manga="http://www.biblioteca-manga.com/datos">
+    
     <manga:comic>
         <manga:titulo>Naruto</manga:titulo>
         <manga:autor>Masashi Kishimoto</manga:autor>
-        <manga:año>1999</manga:año>
+        <manga:anio>1999</manga:anio>
     </manga:comic>
+
     <manga:comic>
         <manga:titulo>Berserk</manga:titulo>
         <manga:autor>Kentaro Miura</manga:autor>
-        <manga:año>1989</manga:año>
+        <manga:anio>1989</manga:anio>
     </manga:comic>
-</root>
+
+    <manga:comic>
+        <manga:titulo>One Piece</manga:titulo>
+        <manga:autor>Eiichiro Oda</manga:autor>
+        <manga:anio>1997</manga:anio>
+    </manga:comic>
+
+</manga:biblioteca>
